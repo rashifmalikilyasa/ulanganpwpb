@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Judul"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="normal"
+            android:layout_margin="16dp"/>
+
+        <EditText
+            android:id="@+id/edt_judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_below="@id/textview1"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="normal"
+            android:layout_margin="16dp"/>
+
+        <EditText
+            android:id="@+id/edt_deskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_below="@id/textview2"/>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Submit"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorPrimaryDark"
+            android:layout_below="@id/edt_deskripsi"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="16dp"/>
+    </RelativeLayout>
+</LinearLayout>
